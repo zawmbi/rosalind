@@ -8,6 +8,7 @@ In DNA strings, symbols 'A' and 'T' are complements of each other, as are 'C' an
 The reverse complement of a DNA string s is the string s^c formed by reversing the symbols 
 of s then taking the complement of each symbol (e.g., the reverse complement of "GTCA"
 is "TGAC").
+Problem link: https://rosalind.info/problems/revc/
 '''
 
 with open("rosalind_revc.txt") as file:

@@ -1,6 +1,6 @@
 '''
 Solved by: Linda Mansour
-Date: 04/11/2024
+Date: 04/12/2024
 Language: Python
 ID: SUBS
 Problem:  Finding a Motif in DNA
@@ -26,18 +26,20 @@ more than once as a substring of s.
 Problem link: https://rosalind.info/problems/subs/
 '''
 
-# with open ("rosalind_subs.txt") as file:
-#     s = file.readline().strip()
-#     t = file.readline().strip()
+with open ("rosalind_subs.txt") as file:
+    s = file.readline().strip()
+    t = file.readline().strip()
 
-s = "GATATATGCATATACTT"
-t = "ATAT"
 
+def find_substring_positions(s,t): # finds the positions where substring is found
+    length_t = len(t) 
     
-print(s)
-print(t)
+    for i in range(len(s) - length_t+1): # only goes up to the amount that can inlcude the substring
+        if s[i:i + length_t] == t: # from i to i  + length of t is the substring t
+            print(i+1, end = ' ') # prints the positions
 
 
-for i in s:
-    if t in s:
-        print(i)
+find_substring_positions(s,t)
+    
+# Correct Output:
+# 5 48 58 83 140 199 225 250 293 307 391 398 437 457 523 538 561 568 717 780 798

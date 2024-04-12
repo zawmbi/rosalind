@@ -9,8 +9,8 @@ using 20 letters from the English alphabet (all letters
 except for B, J, O, U, X, and Z). Protein strings are constructed
 from these 20 symbols. Henceforth, the term genetic string will
 incorporate protein strings along with DNA strings and RNA strings.
-
 The RNA codon table dictates the details regarding the encoding of specific codons into the amino acid alphabet.
+Problem link:https://rosalind.info/problems/prot/
 '''
 
 with open ("rosalind_prot.txt") as file:
