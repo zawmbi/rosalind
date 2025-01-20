@@ -1,13 +1,13 @@
-##################
-# Solved by: Linda Mansour
-# Date: 04/02/2024
-# Language: Python
-# ID: INI1
-# Problem: Installing Python
-# After downloading and installing Python, type import this into the Python command line and 
-# see what happens. Then, click the "Download dataset" button below and copy the Zen of Python 
-# into the space provided.
-##################
+'''Solved by: Linda Mansour
+Date: 04/02/2024
+Language: Python
+ID: INI1
+Problem: Installing Python
+After downloading and installing Python, type import this into the Python command line and 
+see what happens. Then, click the "Download dataset" button below and copy the Zen of Python 
+into the space provided.
+Problem link: https://rosalind.info/problems/ini1/
+'''
 
 import this
 
